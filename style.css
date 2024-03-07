@@ -1,0 +1,77 @@
+ *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+ }
+
+ body {
+    height: 100vh;
+    background: linear-gradient(to bottom, #F9E897 50%, #16191e 50%);
+ }
+
+ .clock {
+    background: #ffffff;
+    height: 320px;
+    width: 320px;
+    position: absolute;
+    left: 40%;
+    top: 30%;
+    translate: translate(-50%, -50%);
+    box-sizing: content-box;
+    border-radius: 50%;
+    border: 15px solid #242931;
+    box-shadow: 15px 15px 35px rgba(0, 0, 0, 0.2),
+    inset 0 0 30px rgba(0, 0, 0, 0.4);
+    background-image: url("Analog_image-removebg-preview.png");
+    background-size: cover;
+ }
+
+ /* .hand {
+    height: 95px;
+    width: 10px;
+    position: absolute;
+    background-color: black;
+    margin: auto;
+    left: 49%;
+    top: 25%;
+    border-radius: 5px;
+    transform-origin: bottom;
+ } */
+
+ .hand{
+    position: absolute;
+    background-color: black;
+    margin: auto;
+    left: 0;
+    right: 0;
+    border-radius: 5px;
+    transform-origin: bottom;
+ }
+
+ /* .hour {
+    height: 110px;
+    width: 5px;
+    top: 15%;
+ } */
+
+ .hour {
+    height: 70px;
+    width: 10px;
+    top: 88px;
+ }
+
+ .minute {
+    height: 95px;
+    width: 5px;
+    top: 65px;
+    background-color: red;
+ }
+
+ .seconds {
+    height: 110px;
+    width: 3px;
+    top: 52px;
+    background-color: #2987e4;
+ }
+
+ 
